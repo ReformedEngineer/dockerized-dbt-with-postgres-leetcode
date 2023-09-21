@@ -1,9 +1,10 @@
 version: '3'
 services:
   dbt:
-    image: fishtownanalytics/dbt:1.0.0
-    # build: . # This will build the Dockerfile in the current directory
+    # image: fishtownanalytics/dbt:1.0.0
+    build: .
     working_dir: /dbt
+    entrypoint: ["/dbt/entrypoint.sh"]
     volumes:
       - ./dbt_project:/dbt
     environment:
