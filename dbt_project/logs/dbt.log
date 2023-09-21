@@ -1,0 +1,26 @@
+
+
+============================== 2023-09-20 18:37:56.158653 | b45d3a9d-0d31-4fb5-b733-2d480fc64b21 ==============================
+18:37:56.158653 [info ] [MainThread]: Running with dbt=1.0.0
+18:37:56.158889 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name=None, skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+18:37:56.159031 [debug] [MainThread]: Tracking: tracking
+18:37:56.161712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bad943f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bad943fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bad943670>]}
+18:38:08.019324 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.9/site-packages/dbt/include/starter_project
+18:38:10.135888 [info ] [MainThread]: Profile Local written to /dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+18:38:10.136229 [info ] [MainThread]: 
+Your new dbt project "Local" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+18:38:10.136493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bad9bafa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7badf6f910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7badf6ff40>]}
