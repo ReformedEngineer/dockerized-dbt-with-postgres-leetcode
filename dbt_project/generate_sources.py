@@ -3,7 +3,7 @@ import os
 import yaml
 from dotenv import load_dotenv
 
-# Load the .env file explicitly
+# Load the .env file explicitly...
 load_dotenv()
 
 # Fetch environment variables using os.getenv
